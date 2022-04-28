@@ -1,5 +1,6 @@
 ## Changelog
 ##### Unreleased
+- Added `Array.prototype.push` polyfill with some fixes for modern engines
 - Added detection and fix of a V8 ~ Chrome <103 [bug](https://bugs.chromium.org/p/v8/issues/detail?id=12542) of `struturedClone` that returns `null` if cloned object contains multiple references to one error
 
 ##### 3.22.4 - 2022.05.03
